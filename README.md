@@ -4,7 +4,7 @@ This is a version of [Onion Desktop Tools](https://github.com/schmurtzm/Onion-De
 
 I also added a tool to download, verify, and install BIOS.
 
-Just run LinuxDesktopTools-x86 to use it.
+Just run "python3 main.py" or run the LinuxDesktopTools-x86 binary to use it.
 
 If you encounter bugs, please report them!
 

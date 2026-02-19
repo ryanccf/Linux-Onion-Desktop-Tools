@@ -571,6 +571,19 @@ class OnionInstaller(Gtk.Window):
             link_box.pack_start(btn, False, False, 0)
         box.pack_start(link_box, False, False, 0)
 
+        sep3 = Gtk.Separator(orientation=Gtk.Orientation.HORIZONTAL)
+        box.pack_start(sep3, False, False, 5)
+
+        port_label = Gtk.Label()
+        port_label.set_markup("<b>Support the Linux port developer:</b>")
+        port_label.set_halign(Gtk.Align.START)
+        box.pack_start(port_label, False, False, 0)
+
+        port_link_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=15)
+        btn = Gtk.LinkButton.new_with_label("https://www.patreon.com/c/QuintupleAGames", "Patreon")
+        port_link_box.pack_start(btn, False, False, 0)
+        box.pack_start(port_link_box, False, False, 0)
+
         self.notebook.append_page(box, Gtk.Label(label="About"))
 
     # ── Event Handlers ──────────────────────────────────────────

@@ -5,3 +5,8 @@ __pycache__/
 downloads/
 backups/
 bios_cache/
+releases/
+build/
+dist/
+*.spec
+.venv/

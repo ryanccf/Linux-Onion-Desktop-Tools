@@ -1,4 +1,4 @@
-# Linux-Onion-Desktop-Tools
+# Linux Onion Desktop Tools
 
 This is a version of [Onion Desktop Tools](https://github.com/schmurtzm/Onion-Desktop-Tools/tree/main) written in Python (with Claude Code) instead of Powershell.
 
